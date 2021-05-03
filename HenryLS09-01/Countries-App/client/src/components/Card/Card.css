@@ -1,0 +1,50 @@
+.card-wrapper {
+    display: grid;
+    grid-template: 10px 100px 30px 20px / 15px 300px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 330px;
+    height: 200px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.453);
+    margin: 10px;
+    text-decoration:none;
+}
+.invisible-hover {    
+    background-color:rgba(255,255,255,1);
+    transition: all .5s;
+}
+
+.invisible-hover:hover {
+    background-color:rgba(15, 125, 199, 0.7);
+    transition: all .5s;
+    
+}
+.invisible-hover:hover::after {
+    content:"DETAILS"
+}
+
+.card-flag {
+    grid-area: 2 / 2 / 3 / 3 ;
+}
+
+.card-flag img {
+    width: 140px;
+    height:100px;
+    text-decoration:none;
+}
+
+.card-name {
+    grid-area: 3 / 2 / 4 / 3 ;
+    text-decoration:none;
+    color: black;
+    position:relative;
+    top:1rem;
+}
+
+.card-continent {
+    grid-area: 4 / 2 / 5 / 3 ;
+    text-decoration:none;
+    color: black;
+    position:relative;
+    top:1rem;
+}
+

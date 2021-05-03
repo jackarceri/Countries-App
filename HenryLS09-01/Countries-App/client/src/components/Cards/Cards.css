@@ -1,0 +1,65 @@
+.cards-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-decoration: none;
+  background:rgba(255,255,255,0.4)
+}
+
+.pagination-buttons {
+  clear: both;
+  width: 100%;
+  float: top;
+}
+
+.pagination-buttons li {
+  display: inline-block;
+  background-color: #eaeaea;
+  border: solid 1px grey;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.453);
+  padding: 0.5rem 1rem;
+  color: black;
+}
+
+.pagination-buttons :hover {
+  background-color: #3896cc;
+  color: white;
+}
+
+.btn-web {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+ 
+}
+.btn-web :hover {
+  background-color: #0176ba;
+  box-shadow: 0 0 0.8 0.8;
+  color:black;
+}
+
+.sorting {
+  color: black;
+}
+
+.pages-title {
+  color: black;
+}
+
+.filters-wrapper {
+  color: black;
+  background-color: rgba(255,255,255,0.7);
+  bottom: 10rem;
+  top: 1rem;
+  right: 2rem;
+  top: 2rem;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.453);
+}

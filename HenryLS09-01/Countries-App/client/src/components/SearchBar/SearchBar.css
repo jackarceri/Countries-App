@@ -1,0 +1,33 @@
+body {
+    text-decoration: none;
+}
+
+.cards-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-decoration:none;
+    color:black;
+    opacity:0.9;    
+}
+
+.searchbar-container {
+    background-color:#b2fef7;
+    color:white;
+    size:100px;
+   
+    position:relative;
+    top:10rem;
+    left:10rem;
+
+}
+
+.title-search {
+    background-color:rgba(255,255,255,0.7);
+    
+}
+.no-results p{
+    color:red;
+    font-weight:bold;
+    font-size: 15pt;
+}

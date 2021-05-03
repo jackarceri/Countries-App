@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration:none;
+}
+
+html {
+  font-size: 12pt;
+  text-decoration:none;
+}
+
+.App {
+  text-align: center; 
+  text-decoration:none;
+}
+link{
+  text-decoration:none;
+}

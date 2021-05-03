@@ -1,0 +1,45 @@
+.countries-list {
+  height: 1rem;
+  background-image: url("../../img/activities.jpg");
+}
+
+.form-container {
+  width: 20rem;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-father {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.453);
+  align-items: center;
+  position: relative;
+  left: 25rem;
+  right: 25rem;
+  width: 25rem;
+  top: 8rem;
+  background-color: white;
+}
+
+.input-space {
+  width: 18rem;
+  height: 1rem;
+  box-shadow: 0 0 0 0.2;
+}
+.form-wrapper {
+  background-color: white;
+  width: 25rem;
+  height: 17rem;
+  position: relative;
+  align-items: center;
+}
+
+.link-home {
+  background-color: white;
+  width: 10rem;
+  position: relative;
+}
+
+.link-home :hover {
+  background-color: rgb(28, 165, 206);
+  text-decoration: none;
+}
